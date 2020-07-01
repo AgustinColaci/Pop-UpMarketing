@@ -1,0 +1,157 @@
+*{
+    margin: o;
+    padding: o;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    
+}
+
+/*-----INDEX-----*/
+
+.logo {
+    display: flex;
+    float: left;
+    margin-left: 4%;    
+    margin-top: 20px;
+    width: 205px;
+    height: 77px;
+    padding: 5px;
+    /*
+    background-color: black;
+    border-radius: 8px; 
+    
+    Fondo para logo, para que no se pierda al hacer scroll*/ 
+}
+
+header nav  {
+    float: right;
+    margin-right: 4%; 
+}
+
+header nav ul li{    
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+header nav ul li a {
+   /* background-image: url(../imagenes/background.png); Fondo para no se pierda al hacer scroll*/
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    opacity: 1;
+    font-size: 1.5rem;
+}
+
+header nav ul li a:hover {
+    color: rgba(128, 128, 128, 0.623);
+    }
+
+main {
+    background-image: url(../imagenes/background.png);
+    max-height: 100vh;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.conocenos-mas {
+   /* display: flex; */   
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: aliceblue;    
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 10px 20px #00000029;
+    opacity: 1;
+}
+
+h1 {    
+    font-weight: 800;
+    font-size: 16rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.titulo {    
+    color: #460750;    
+    font-weight: 800;
+    font-size: 3rem;  
+    opacity: 1;
+    padding: 10px;
+}
+
+/*-----¿QUE HACEMOS?-----*/
+
+h3 {
+    text-align: center;  
+    color: #460750;    
+    font-weight: 300;
+    font-size: 3rem;  
+    opacity: 1;
+}
+
+.cajas-padre {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    position:relative;
+    display:block;
+} 
+
+.caja-de-imagen {
+    background-color: #E4E4E4;
+    width: 500px;
+    height: 300px;
+}
+
+.caja-de-texto {
+   /* background-color: #f7f2f2ea; */
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+.caja-de-texto h4 {
+    font-size: 3rem;
+}
+
+.caja-de-texto p {
+    font-size: 1.2rem;
+    }
+
+.caja-1, .caja-2, .caja-3, .caja-4 {
+
+    display: flex;
+    margin: 20px;
+    width: 100%;
+    
+}
+
+.que-hacemos, .nosotros, .servicios, .portfolio, .contacto{
+    
+    margin-top: 20px;
+}
+/*-----NOSOTROS-----*/
+
+.nosotros {
+    display: flex;
+    text-align: center;
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    border: solid black 2px;
+}
+
+#text-nosotros {
+    text-align: center;
+    margin: 20px;
+
+}
