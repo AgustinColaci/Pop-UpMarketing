@@ -99,24 +99,21 @@ h3 {
 }
 
 .cajas-padre {
-    width: 1000px;
-    height: 300px;
     margin: auto;
     position:relative;
     display:block;
 } 
 
 .caja-de-imagen {
-    background-color: #E4E4E4;
-    width: 500px;
+    width: 600px;
     height: 300px;
 }
 
 .caja-de-texto {
    /* background-color: #f7f2f2ea; */
-    width: 500px;
-    height: 300px;
     text-align: center;
+    width: 600px;
+    height: 300px;
 }
 
 .caja-de-texto h4 {
@@ -127,31 +124,105 @@ h3 {
     font-size: 1.2rem;
     }
 
-.caja-1, .caja-2, .caja-3, .caja-4 {
 
-    display: flex;
-    margin: 20px;
-    width: 100%;
-    
-}
 
 .que-hacemos, .nosotros, .servicios, .portfolio, .contacto{
     
     margin-top: 20px;
 }
+
+
+.cajas-padre {
+width: 100%;
+margin: auto;
+
+    display: grid;
+    grid-template-areas:
+     "cm-img cm-text"
+     "brand-text brand-img"
+     "consult-img consult-text"
+     "diseño-text diseño-img";
+
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin: 20px;
+
+    justify-items: center;
+    align-items: center;
+
+    grid-column-gap: 5px;
+    grid-row-gap: 80px;
+}
+
+#cm-img {
+    grid-area: (cm-img);
+    float: left;
+    background-color: #E4E4E4;
+ }
+ #cm-text {
+    grid-area: (cm-text);
+    float: right;
+    text-align: left;
+    padding: 5px;
+ }
+
+ 
+#brand-text {
+    grid-area: (brand-text);    
+    float: left;
+    text-align: left;
+    padding: 5px;
+ }
+#brand-img {
+    grid-area: (brand-img);
+    background-color: #E4E4E4;
+    float: right;
+ }
+
+ #consult-img {
+    grid-area: (consult-img);  
+    background-color: #E4E4E4;
+    float: left;
+ }
+ #consult-text {
+    grid-area: (consult-text);
+    float: right;
+    text-align: left;
+    padding: 5px;
+ }
+
+ 
+#diseño-text {
+    grid-area: (diseño-text);
+    float: left;
+    text-align: left;
+    padding: 5px;
+ }
+#diseño-img {
+    grid-area: (diseño-img);
+    background-color: #E4E4E4;
+    float: right;
+ }
+ 
 /*-----NOSOTROS-----*/
 
 .nosotros {
     display: flex;
     text-align: center;
-    width: 1000px;
-    height: 400px;
     margin: auto;
-    border: solid black 2px;
+    width: 50%;
 }
 
 #text-nosotros {
     text-align: center;
-    margin: 20px;
+    margin: 10px;
+    font-size: 2rem; 
+    font-weight: 300;
 
 }
+
+
+/*---METODOLOGÍAS DE TRABAJO (SERVICIOS)---*/
