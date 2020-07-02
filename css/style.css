@@ -19,16 +19,19 @@ html {
     width: 205px;
     height: 77px;
     padding: 5px;
-    /*
-    background-color: black;
     border-radius: 8px; 
-    
-    Fondo para logo, para que no se pierda al hacer scroll*/ 
 }
 
+
 header nav  {
-    float: right;
-    margin-right: 4%; 
+    width: 100%;
+    background: rgb(107,0,83);
+    background: linear-gradient(360deg, rgba(107,0,83,1) 17%, rgba(153,0,150,1) 81%);
+    box-shadow: 0px 0px 16px 0px white;
+}
+
+header nav ul{    
+    margin-left: 40%;
 }
 
 header nav ul li{    
@@ -37,7 +40,6 @@ header nav ul li{
 }
 
 header nav ul li a {
-   /* background-image: url(../imagenes/background.png); Fondo para no se pierda al hacer scroll*/
     border-radius: 8px;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -57,8 +59,7 @@ main {
     padding-top: 20%;
 }
 
-.conocenos-mas {
-   /* display: flex; */   
+.conocenos-mas {  
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: aliceblue;    
@@ -110,7 +111,6 @@ h3 {
 }
 
 .caja-de-texto {
-   /* background-color: #f7f2f2ea; */
     text-align: center;
     width: 600px;
     height: 300px;
@@ -126,7 +126,7 @@ h3 {
 
 
 
-.que-hacemos, .nosotros, .servicios, .portfolio, .contacto{
+.servicios, .nosotros, .portfolio, .contacto{
     
     margin-top: 20px;
 }
@@ -148,7 +148,6 @@ margin: auto;
 
     grid-row-gap: 10px;
     grid-column-gap: 10px;
-    margin: 20px;
 
     justify-items: center;
     align-items: center;
@@ -213,6 +212,7 @@ margin: auto;
     display: flex;
     text-align: center;
     margin: auto;
+    padding-top: 10%;
     width: 50%;
 }
 
@@ -226,3 +226,35 @@ margin: auto;
 
 
 /*---METODOLOGÍAS DE TRABAJO (SERVICIOS)---*/
+
+.marketing {
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+}
+
+.rounded-circle {
+   margin-left: 55px;
+
+}
+
+.text-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+
+.metodologias {
+    padding-top: 5%;
+}
+
+/*---PORTFOLIO---*/
+
+.img-portfolio-padre {
+    max-width: 100vh;
+}
+
+.titulo-portfolio {
+    text-align: center;
+    width: 100%;
+    margin-top: 4%;
+}
