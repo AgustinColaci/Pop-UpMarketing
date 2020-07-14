@@ -25,13 +25,14 @@ html {
 
 header nav  {
     width: 100%;
-    background: rgb(107,0,83);
+    background-color: transparent;
+   /* background: rgb(107,0,83); */
    /* background: linear-gradient(360deg, rgba(107,0,83,1) 17%, rgba(153,0,150,1) 81%);  */
-    box-shadow: 0px 0px 16px 0px white;
+   /* box-shadow: 0px 0px 16px 0px white; */
 }
 
 header nav ul{    
-    margin-left: 40%;
+    margin-left: 50%;
 }
 
 header nav ul li{    
@@ -52,11 +53,14 @@ header nav ul li a:hover {
     }
 
 main {
-    background-image: url(../imagenes/background.png);
+    background-image: url(../imagenes/background.jpg);
     max-height: 100vh;
     height: 100vh;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 20%;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .conocenos-mas {  
@@ -71,8 +75,8 @@ main {
 
 h1 {    
     font-weight: 800;
-    font-size: 16rem;
-}
+    font-size: 12rem;
+    }
 
 h2 {
     text-align: center;
@@ -105,7 +109,7 @@ h3 {
     display:block;
 } 
 
-.caja-de-imagen {
+.caja-de-imagen img{
     width: 600px;
     height: 300px;
 }
@@ -204,6 +208,7 @@ margin: auto;
     grid-area: (diseño-img);
     background-color: #E4E4E4;
     float: right;
+    margin-bottom: 5%;
  }
  
 /*-----NOSOTROS-----*/
@@ -231,6 +236,7 @@ margin: auto;
     display: flex;
     justify-content: center;
     padding: 4%;
+    background-color: #E7C9C9;
 }
 
 .rounded-circle {
@@ -244,7 +250,8 @@ margin: auto;
 }
 
 .metodologias {
-    padding-top: 5%;
+    border-bottom: 0px;
+    background-color: #E7C9C9;
 }
 
 /*---PORTFOLIO---*/
@@ -260,6 +267,16 @@ margin: auto;
 }
 
 /*---FORMULARIO DE CONTACTO---*/
+.contacto {
+    background-image: url(../imagenes/background-contacto.png);
+    max-height: 100vh;
+    height: 100vh;
+    padding-top: 2%;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 
 .bigicon {
     font-size: 30px;
