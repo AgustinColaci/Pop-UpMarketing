@@ -237,11 +237,7 @@ margin: auto;
     justify-content: center;
     padding: 4%;
     background-color: #E7C9C9;
-}
-
-.rounded-circle {
-   margin-left: 55px;
-
+    height: 100vh;
 }
 
 .text-heading {
@@ -249,9 +245,19 @@ margin: auto;
     font-size: 2.5rem;
 }
 
-.metodologias {
-    border-bottom: 0px;
-    background-color: #E7C9C9;
+.text-metodologias {
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+.circulo-metodologias {
+    margin-left: 500px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
 }
 
 /*---PORTFOLIO---*/
