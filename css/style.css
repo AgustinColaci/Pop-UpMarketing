@@ -103,21 +103,19 @@ h3 {
     opacity: 1;
 }
 
+.tit-que-hacemos {
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
 .cajas-padre {
     margin: auto;
     position:relative;
     display:block;
 } 
 
-.caja-de-imagen img{
-    width: 600px;
-    height: 300px;
-}
-
-.caja-de-texto {
-    text-align: center;
-    width: 600px;
-    height: 300px;
+.cajas-servicios {
+    padding-bottom: 10%;
 }
 
 .caja-de-texto h4 {
@@ -129,88 +127,11 @@ h3 {
     }
 
 
-
 .servicios, .nosotros, .portfolio, .contacto{
     
     margin-top: 20px;
 }
 
-
-.cajas-padre {
-width: 100%;
-margin: auto;
-
-    display: grid;
-    grid-template-areas:
-     "cm-img cm-text"
-     "brand-text brand-img"
-     "consult-img consult-text"
-     "diseño-text diseño-img";
-
-    grid-template-rows: 1fr 1fr 1fr 1fr; 
-    grid-template-columns: 1fr 1fr;
-
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
-
-    justify-items: center;
-    align-items: center;
-
-    grid-column-gap: 5px;
-    grid-row-gap: 80px;
-}
-
-#cm-img {
-    grid-area: (cm-img);
-    float: left;
-    background-color: #E4E4E4;
- }
- #cm-text {
-    grid-area: (cm-text);
-    float: right;
-    text-align: left;
-    padding: 5px;
- }
-
- 
-#brand-text {
-    grid-area: (brand-text);    
-    float: left;
-    text-align: left;
-    padding: 5px;
- }
-#brand-img {
-    grid-area: (brand-img);
-    background-color: #E4E4E4;
-    float: right;
- }
-
- #consult-img {
-    grid-area: (consult-img);  
-    background-color: #E4E4E4;
-    float: left;
- }
- #consult-text {
-    grid-area: (consult-text);
-    float: right;
-    text-align: left;
-    padding: 5px;
- }
-
- 
-#diseño-text {
-    grid-area: (diseño-text);
-    float: left;
-    text-align: left;
-    padding: 5px;
- }
-#diseño-img {
-    grid-area: (diseño-img);
-    background-color: #E4E4E4;
-    float: right;
-    margin-bottom: 5%;
- }
- 
 /*-----NOSOTROS-----*/
 
 .nosotros {
@@ -266,6 +187,12 @@ margin: auto;
     max-width: 100vh;
 }
 
+.img-portfolio {
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .titulo-portfolio {
     text-align: center;
     width: 100%;
@@ -289,6 +216,14 @@ margin: auto;
     color: rgb(107,0,83);
 }
 
+.boton-enviar {
+    background-color: #460750;
+    border: #FFFFFF;
+}
+
+.boton-enviar:hover {
+    background-color: black;
+}
 
 /*---FOOTER---*/
 
