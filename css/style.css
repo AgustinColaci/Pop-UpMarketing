@@ -132,6 +132,35 @@ h3 {
     margin-top: 20px;
 }
 
+
+
+  @media only screen and (max-width: 1000px) {
+    .servicios-desktop {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width:1000px){
+    .servicios-mobile {
+    display:absolute;
+    }                            
+   
+   }
+
+@media (max-width: 1001px) {
+    .servicios-mobile {
+      display: absolute;
+    }
+  }
+
+  @media screen and (min-width: 1001px){
+    .servicios-mobile {
+    display:none;
+    }                            
+   
+   }
+
+
 /*-----NOSOTROS-----*/
 
 .nosotros {
