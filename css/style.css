@@ -118,6 +118,14 @@ h3 {
     padding-bottom: 10%;
 }
 
+.cajas-servicios h4 {
+    padding-top: 6%;    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #6A0752;
+
+}
+
 .caja-de-texto h4 {
     font-size: 3rem;
 }
@@ -140,14 +148,14 @@ h3 {
     }
   }
 
-  @media screen and (min-width:1000px){
+  @media screen and (min-width:1001px){
     .servicios-mobile {
     display:absolute;
     }                            
    
    }
 
-@media (max-width: 1001px) {
+@media (max-width: 1000px) {
     .servicios-mobile {
       display: absolute;
     }
@@ -159,6 +167,10 @@ h3 {
     }                            
    
    }
+
+
+  
+
 
 
 /*-----NOSOTROS-----*/
@@ -190,6 +202,21 @@ h3 {
     height: 100vh;
 }
 
+@media screen and (max-width: 980px){
+    .marketing {
+    height:auto;
+    }      
+    
+    .marketing p {
+        margin-bottom: 12%;
+    }
+
+    .marketing .rounded-circle {
+        margin-bottom: 2%;
+    }  
+   
+   }
+
 .text-heading {
     font-family: 'Roboto', sans-serif;
     font-size: 2.5rem;
@@ -202,12 +229,22 @@ h3 {
     align-content: center;
     margin: auto;
 }
-.circulo-metodologias {
-    margin-left: 500px;
-    text-align: center;
-    align-items: center;
-    align-content: center;
+
+img.rounded-circle {
+    display: flex;
     margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.marketing h2,p {
+    
+    font-family: 'Roboto', sans-serif;
+    color: #6A0752;
+}
+
+.marketing p {
+    font-size: 1.2rem;
 }
 
 /*---PORTFOLIO---*/
