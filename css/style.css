@@ -293,17 +293,28 @@ img.rounded-circle {
 
 /*---FOOTER---*/
 
-footer  {
+.footer.contacto  {
     width: 100%;
-    background: rgb(107,0,83);
-  /*  background: linear-gradient(360deg, rgba(107,0,83,1) 17%, rgba(153,0,150,1) 81%); */
+    background: white;
     box-shadow: 0px 0px 16px 0px white;
     margin-left: 0px;
     margin-right: 0px;
-
 }
 
-footer nav ul li a{
-    color: azure;
+.footer-contacto nav ul li a{
+    color: rgb(107,0,83);
     font-size: 1.2rem;
+    display: inline-block;
+}
+
+.redes-sociales {
+    display: flex;
+    display: inline-block;
+}
+
+footer {
+    background-color:rgb(107,0,83);
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
