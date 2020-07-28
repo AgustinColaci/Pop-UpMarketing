@@ -157,7 +157,7 @@ h3 {
     }
 
 
-.servicios, .nosotros, .portfolio, .contacto{
+.servicios, .nosotros, .portfolio, .contacto-row{
     
     margin-top: 20px;
 }
@@ -287,10 +287,14 @@ img.rounded-circle {
 }
 
 /*---FORMULARIO DE CONTACTO---*/
+
 .contacto {
+    
     background-image: url(../imagenes/background-contacto.png);
     max-height: 100vh;
     height: 100vh;
+}
+.contacto-row {
     padding-top: 2%;  
     background-position: center;
     background-repeat: no-repeat;
@@ -298,6 +302,12 @@ img.rounded-circle {
     justify-content: center;
     margin: auto;
 
+}
+
+.contacto-row .titulo {
+    color: #460750;    
+    font-weight: 700;
+    font-size: 3rem;  
 }
 
 .form-group {
