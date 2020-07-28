@@ -73,6 +73,27 @@ main {
     opacity: 1;
 }
 
+.conocenos-mas h1,
+.conocenos-mas h2 {    
+    text-shadow: 2px 2px 2px black; 
+}
+
+@media only screen and (max-width: 720px) {
+    .conocenos-mas h1 {
+      margin-top: 30%;
+      font-size: 8rem;
+      text-shadow: 2px 2px 2px black; 
+    }
+  }
+
+  
+@media only screen and (max-width: 720px) {
+    .conocenos-mas h2 {
+      font-size: 3rem;
+      text-shadow: 2px 2px 2px black; 
+    }
+  }
+
 h1 {    
     font-weight: 800;
     font-size: 12rem;
@@ -91,6 +112,7 @@ h2 {
     font-size: 3rem;  
     opacity: 1;
     padding: 10px;
+    margin: auto;
 }
 
 /*-----¿QUE HACEMOS?-----*/
@@ -131,6 +153,7 @@ h3 {
 
 .caja-de-texto p {
     font-size: 1.4rem;
+    color: black;
     }
 
 
@@ -184,7 +207,6 @@ h3 {
 
 #text-nosotros {
     text-align: center;
-    margin: 10px;
     font-size: 2rem; 
     font-weight: 300;
 
@@ -272,13 +294,18 @@ img.rounded-circle {
     padding-top: 2%;  
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
+    justify-content: center;
+    margin: auto;
 
 }
 
-.bigicon {
-    font-size: 30px;
-    color: rgb(107,0,83);
+.form-group {
+    font-size: 2.5rem;
+}
+
+.form-group input {
+    height: 35px;
 }
 
 .boton-enviar {
