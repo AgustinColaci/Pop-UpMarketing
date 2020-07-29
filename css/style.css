@@ -64,7 +64,7 @@ main {
 }
 
 .conocenos-mas {  
-    font-family: 'Raleway', sans-serif;
+    font-family: 'way', sans-serif;
     text-align: center;
     color: aliceblue;    
     letter-spacing: 0px;
@@ -208,7 +208,9 @@ h3 {
 #text-nosotros {
     text-align: center;
     font-size: 2rem; 
-    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #6A0752;
 
 }
 
@@ -221,6 +223,13 @@ h3 {
     padding: 4%;
     background-color: #F6ECEC;
     height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.marketing p {
+    
+    font-weight: 400;
 }
 
 @media screen and (max-width: 980px){
@@ -241,6 +250,13 @@ h3 {
 .text-heading {
     font-family: 'Roboto', sans-serif;
     font-size: 2.5rem;
+}
+
+.marketing .metodologias {
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
 
 .text-metodologias {
@@ -266,6 +282,16 @@ img.rounded-circle {
 
 .marketing p {
     font-size: 2rem;
+}
+
+.marketing .metodologias {
+    padding-bottom: 4%;
+}
+
+.ejecucion, 
+.medicion, 
+.ajuste  {
+    padding-top: 7%;
 }
 
 /*---PORTFOLIO---*/
@@ -316,15 +342,32 @@ img.rounded-circle {
 
 .form-group input {
     height: 35px;
+    font-size: 2rem;
+    border-radius: 50px;
+}
+
+textarea.form-control {
+    height: auto;
+    font-size: 2rem;
+    border-radius: 20px;
 }
 
 .boton-enviar {
     background-color: #460750;
     border: #FFFFFF;
+    border-radius: 100px;
+    font-size: 1.7rem;
 }
 
 .boton-enviar:hover {
     background-color: black;
+}
+
+.fa-user:before,
+.fa.fa-envelope-o:before,
+.fa-phone-square:before,
+.fa.fa-pencil-square-o:before {
+    font-size: 2rem;
 }
 
 /*---FOOTER---*/
