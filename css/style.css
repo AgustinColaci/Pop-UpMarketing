@@ -25,10 +25,10 @@ html {
 
 header nav  {
     width: 100%;
-    background-color: transparent;
-   /* background: rgb(107,0,83); */
+    /*background-color: transparent;*/
+    background: #6A0752; 
    /* background: linear-gradient(360deg, rgba(107,0,83,1) 17%, rgba(153,0,150,1) 81%);  */
-   /* box-shadow: 0px 0px 16px 0px white; */
+    box-shadow: 0px 0px 16px 0px white; 
 }
 
 header nav ul{    
@@ -52,6 +52,19 @@ header nav ul li a:hover {
     color: rgba(128, 128, 128, 0.623);
     }
 
+    .navbar-toggler {
+        background-color: #E2D0DE;
+        border: 1px solid white;
+        border-radius: .25rem;
+        margin-right: 3%;
+    }
+
+    .fa-chevron-circle-down:before {
+        content: "\f13a";
+        color: #6A0752;
+        font-size: 1.7rem;
+    }
+
 main {
     background-image: url(../imagenes/background.jpg);
     max-height: 100vh;
@@ -73,10 +86,19 @@ main {
     opacity: 1;
 }
 
-.conocenos-mas h1,
+.conocenos-mas h1 {    
+    text-shadow: 2px 2px 2px black; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+
 .conocenos-mas h2 {    
     text-shadow: 2px 2px 2px black; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
+
 
 @media only screen and (max-width: 720px) {
     .conocenos-mas h1 {
@@ -247,6 +269,15 @@ h3 {
    
    }
 
+   @media screen and (min-width: 980px) {
+
+    .ejecucion, 
+    .medicion, 
+    .ajuste  {
+        padding-top: 6%;
+    }
+}
+
 .text-heading {
     font-family: 'Roboto', sans-serif;
     font-size: 2.5rem;
@@ -257,6 +288,7 @@ h3 {
     padding-top: 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
+    color: #460750;
 }
 
 .text-metodologias {
@@ -288,12 +320,6 @@ img.rounded-circle {
     padding-bottom: 4%;
 }
 
-.ejecucion, 
-.medicion, 
-.ajuste  {
-    padding-top: 7%;
-}
-
 /*---PORTFOLIO---*/
 
 .img-portfolio-padre {
@@ -316,9 +342,8 @@ img.rounded-circle {
 
 .contacto {
     
-    background-image: url(../imagenes/background-contacto.png);
-    max-height: 100vh;
-    height: 100vh;
+    background-image: url(../imagenes/background-contacto.png); 
+    height: 100vh; 
 }
 .contacto-row {
     padding-top: 2%;  
@@ -370,7 +395,7 @@ textarea.form-control {
     font-size: 2rem;
 }
 
-/*---FOOTER---*/
+/*---FOOTER---*/ 
 
 .footer.contacto  {
     width: 100%;
