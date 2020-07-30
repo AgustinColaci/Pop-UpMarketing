@@ -30,7 +30,7 @@
 
 <header class="fixed-top">	
 
-	<nav class="navbar navbar-expand-lg">
+	<nav class="navbar navbar-expand-lg" id="menu">
 
 		<a class="navbar-brand logo" href="index.html"><img id= "logo" src="imagenes/logo.svg" alt="Logo Pop-Up Marketing"></a>
 		
@@ -360,7 +360,7 @@
 		</div>
 					
 
-		  <div id="navbarSupportedContent">
+		  <div class="links-footer" id="navbarSupportedContent">
 			  <h4>Links</h4>
 			  
 				<nav>	
@@ -397,17 +397,21 @@
 					<img src="imagenes/correo.svg" alt="icon correo"> popupmtkg@gmail.com
 				</li>
 				<li>
-					<img src="imagenes/whatsapp.svg" width="20px" alt="icon WhatsApp">112 255 5532
+					<img src="imagenes/whatsapp.svg" width="20px" alt="icon WhatsApp"> 112 255 5532
+				</li>
+				<li>
+					<a href="https://www.facebook.com/popup.mktg" target="_blank"> <img src="imagenes/redes/facebook.svg" width="20px" alt="icon facebook"></a> /popup.mktg
+				</li>
+				<li>
+					<a href="https://www.instagram.com/popup.marketing/" target="_blank"> <img src="imagenes/redes/instagram.svg" width="20px" alt="icon instagram"></a> /popup.marketing
+				</li>
+				<li>
+					<a href="http://www.linkedin.com" target="_blank"> <img src="imagenes/redes/linkedin.svg" width="20px" alt="icon linkedin"></a> LinkedIn
 				</li>
 			</ul>	
 		</div>
 
-		<div class="redes-sociales">
-			<a href="https://www.facebook.com/popup.mktg" target="_blank"> <img src="imagenes/redes/facebook.svg" alt="icon facebook"></a>
-			<a href="https://www.instagram.com/popup.marketing/" target="_blank"> <img src="imagenes/redes/instagram.svg" alt="icon instagram"></a>
-			
-			<a href="http://www.linkedin.com" target="_blank"> <img src="imagenes/redes/linkedin.svg" alt="icon linkedin"></a>
-		</div>
+		
 
 		</div>
 	</div>
@@ -429,6 +433,26 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    
+
+<!--
+			
+	<script>
+			$("#menu")
+
+            $(window).scroll(function () {            
+            var scroll = $(window).scrollTop();
+
+                 if (scroll > 300) {             
+
+                $("#menu").addClass("navChange");
+                $("#menu").removeClass("transparent");
+            	} 	
+				else {
+                $("#menu").removeClass("navChange");
+                $("#menu").addClass("transparent");
+            }
+        });
+    </script> 
+    -->
 </body>
 </html>
