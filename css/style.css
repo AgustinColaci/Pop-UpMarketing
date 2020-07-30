@@ -14,8 +14,7 @@ html {
 .logo {
     display: flex;
     float: left;
-    margin-left: 4%;    
-    margin-top: 20px;
+    margin-left: 4%; 
     width: 205px;
     height: 77px;
     padding: 5px;
@@ -38,6 +37,10 @@ header nav ul{
 header nav ul li{    
     margin-left: 30px;
     margin-top: 20px;
+}
+
+header nav ul li:hover {
+    text-decoration: underline white;
 }
 
 header nav ul li a {
@@ -213,7 +216,11 @@ h3 {
    }
 
 
-  
+   .servicios-desktop img {
+    transition: all .6s ease-in-out;
+  }
+
+  .servicios-desktop img:hover { transform: scale(1.05); }
 
 
 
@@ -248,10 +255,13 @@ h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
-
+.marketing h2.text-heading {
+    color: #6A0752;
+}
 .marketing p {
     
     font-weight: 400;
+    color: #6A0752;
 }
 
 @media screen and (max-width: 980px){
@@ -303,7 +313,10 @@ img.rounded-circle {
     margin: auto;
     text-align: center;
     justify-content: center;
+    transition: all .4s ease-in-out;
 }
+
+img.rounded-circle:hover { transform: scale(1.1); }
 
 .marketing h2,p {
     
@@ -343,7 +356,8 @@ img.rounded-circle {
 .contacto {
     
     background-image: url(../imagenes/background-contacto.png); 
-    height: 100vh; 
+    height: 100vh;     
+    background-position: bottom;
 }
 .contacto-row {
     padding-top: 2%;  
