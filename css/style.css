@@ -24,10 +24,20 @@ html {
 
 header nav  {
     width: 100%;
+}
+
+.transparent{
+    position: fixed; 
+    z-index: 20;
     background-color: transparent;
-   /* background: #6A0752; */
-   /* background: linear-gradient(360deg, rgba(107,0,83,1) 17%, rgba(153,0,150,1) 81%);  */
-   /* box-shadow: 0px 0px 16px 0px white; */
+    transition: ease-in 0.2s;
+
+}
+.navChange{
+    position: fixed; 
+    z-index: 20;
+    background-color: #6A0752;
+    transition: ease-in 0.2s;
 }
 
 header nav ul{    
