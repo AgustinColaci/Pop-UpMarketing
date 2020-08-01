@@ -21,9 +21,12 @@ html {
     border-radius: 8px; 
 }
 
+.navbar {
+    padding: 1.1%;
+}
 
 header nav  {
-    width: 100%;
+    width: 100%;    
 }
 
 .transparent{
@@ -45,8 +48,7 @@ header nav ul{
 }
 
 header nav ul li{    
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-left: 30px; 
 }
 
 header nav ul li:hover {
@@ -79,7 +81,7 @@ header nav ul li a:hover {
     }
 
 main {
-    background-image: url(../imagenes/background.jpg);
+    background-image: url(../imagenes/back.png);
     max-height: 100vh;
     height: 100vh;
     text-align: center;
@@ -90,7 +92,7 @@ main {
 }
 
 .conocenos-mas {  
-    font-family: 'way', sans-serif;
+    font-family: 'raleway', sans-serif;
     text-align: center;
     color: aliceblue;    
     letter-spacing: 0px;
@@ -385,19 +387,15 @@ img.rounded-circle:hover { transform: scale(1.1); }
     font-size: 3rem;  
 }
 
-.form-group {
-    font-size: 2.5rem;
-}
-
 .form-group input {
     height: 35px;
-    font-size: 2rem;
+    font-size: 1rem;
     border-radius: 50px;
 }
 
 textarea.form-control {
     height: auto;
-    font-size: 2rem;
+    font-size: 1rem;
     border-radius: 20px;
 }
 
@@ -412,11 +410,30 @@ textarea.form-control {
     background-color: black;
 }
 
-.fa-user:before,
-.fa.fa-envelope-o:before,
-.fa-phone-square:before,
-.fa.fa-pencil-square-o:before {
-    font-size: 2rem;
+.form-grid {
+    padding-top: 10%;
+    display: grid;
+    grid-template-areas: "nombre-form email-form"
+                         "cel-form provincia-form"
+                         "text-form text-form";
+}
+
+.nombre-form {
+    grid-area: nombre-form;
+}
+
+.email-form {
+    grid-area: email-form;
+}
+
+.cel-form {
+    grid-area: cel-form;
+}
+.provincia-form {
+    grid-area: provincia-form;
+}
+.text-form {
+    grid-area: text-form;
 }
 
 /*---FOOTER---*/ 
@@ -453,6 +470,18 @@ textarea.form-control {
 .contactanos {
     margin: 0 10% 0 10%;
 }
+.titulo_contact {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #6A0752;
+}
+
+.links__contacto,
+.links__contacto a {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
 
 .footer-contacto li {
     margin-bottom: 4%;
