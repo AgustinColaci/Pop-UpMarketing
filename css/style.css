@@ -144,7 +144,7 @@ h2 {
 }
 
 .titulo {    
-    color: #460750;    
+    color: #6A0752;    
     font-weight: 800;
     font-size: 3rem;  
     opacity: 1;
@@ -154,17 +154,27 @@ h2 {
 
 /*-----¿QUE HACEMOS?-----*/
 
-h3 {
-    text-align: center;  
-    color: #460750;    
-    font-weight: 300;
+.tit-que-hacemos {
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.tit-que-hacemos h2 {
+    text-align: center; 
+    color: #6A0752; 
+    font-family: 'raleway', sans-serif;
+    font-weight: 800;
     font-size: 3rem;  
     opacity: 1;
 }
 
-.tit-que-hacemos {
-    padding-bottom: 4%;
-    padding-top: 4%;
+.tit-que-hacemos h3 {
+    font-family: 'raleway', sans-serif;
+    text-align: center; 
+    color: #6A0752;    
+    font-weight: 300;
+    font-size: 3rem;  
+    opacity: 1;
 }
 
 .cajas-padre {
@@ -382,7 +392,7 @@ img.rounded-circle:hover { transform: scale(1.1); }
 }
 
 .contacto-row .titulo {
-    color: #460750;    
+    color: #6A0752;    
     font-weight: 700;
     font-size: 3rem;  
 }
@@ -400,7 +410,7 @@ textarea.form-control {
 }
 
 .boton-enviar {
-    background-color: #460750;
+    background-color: #6A0752;
     border: #FFFFFF;
     border-radius: 100px;
     font-size: 1.7rem;
