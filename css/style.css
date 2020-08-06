@@ -36,6 +36,13 @@ header nav  {
     transition: ease-in 0.2s;
 
 }
+
+@media only screen and (max-width: 1020px) {
+    .transparent {
+     background-color: #6A0752;
+    }
+  }
+
 .navChange{
     position: fixed; 
     z-index: 20;
@@ -166,6 +173,7 @@ h2 {
     font-weight: 800;
     font-size: 3rem;  
     opacity: 1;
+    padding-top: 8%;
 }
 
 .tit-que-hacemos h3 {
@@ -317,10 +325,11 @@ h2 {
 
 .marketing .metodologias {
     margin-top: 0;
-    padding-top: 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     color: #6A0752;
+    margin-bottom: 5%;
+    padding-top: 8%;
 }
 
 .text-metodologias {
@@ -395,17 +404,18 @@ img.rounded-circle:hover { transform: scale(1.1); }
     color: #6A0752;    
     font-weight: 700;
     font-size: 3rem;  
+    padding-top: 5%;
 }
 
 .form-group input {
     height: 35px;
-    font-size: 1rem;
+    font-size: 1.4rem;
     border-radius: 50px;
 }
 
 textarea.form-control {
     height: auto;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 20px;
 }
 
@@ -421,7 +431,8 @@ textarea.form-control {
 }
 
 .form-grid {
-    padding-top: 10%;
+    padding-top: 10%;    
+    font-size: 2rem;
     display: grid;
     grid-template-areas: "nombre-form email-form"
                          "cel-form provincia-form"
