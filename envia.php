@@ -1,6 +1,6 @@
 <?php
 $remitente = $_POST['email'];
-$destinatario = 'popupmtkg@gmail.com'; 
+$destinatario = 'popupmktg@gmail.com'; 
 $asunto = 'Mensaje desde el Sitio Web - Pop Up Marketing'; 
 if (!$_POST){
 ?>
@@ -23,6 +23,6 @@ if (!$_POST){
 
     mail($destinatario, $asunto, $cuerpo, $headers);
     
-    include 'index.html'; 
+    include 'enviado.html'; 
 }
 ?>
